@@ -46,4 +46,5 @@ void Ball::onDraw(Graphics& g)
 	g.drawEllipse(_pos.x - BALL_SIZE, _pos.y - BALL_SIZE, _pos.x + BALL_SIZE, _pos.y + BALL_SIZE);
     g.setPen(NULL);
     DeleteObject(pen);
+
 }
